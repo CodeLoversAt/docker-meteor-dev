@@ -5,7 +5,7 @@ MAINTAINER Daniel Holzmann <d@velopment.at>
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \
 		ca-certificates curl graphicsmagick \
-		numactl \
+		numactl locales \
 	&& rm -rf /var/lib/apt/lists/*
 
 # meteor
